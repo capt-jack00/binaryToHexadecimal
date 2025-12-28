@@ -1,4 +1,5 @@
 # Binary To Hexadecimal Converter
+Forked from: https://github.com/IqbalAhmadi/Property-Pulse
 
 ## Overview
 
@@ -12,10 +13,12 @@ This is a simple C++ program that converts a binary number input by the user int
 
 ## How to Use
 
-### Prerequisites
-
-- A C++ compiler (e.g., g++, clang++)
-- Basic knowledge of how to run C++ programs
+You can use this program as header-only library. The header is located in the `include/` folder. Copy the whole `include/` folder to your project
+and include the `bintohex.h` header to any file you wish. <br>
+Example: 
+```C++
+#include "include/bintohex.h"
+```
 
 ### Steps to Run the Program
 
@@ -24,4 +27,3 @@ This is a simple C++ program that converts a binary number input by the user int
    git clone https://github.com/IqbalAhmadi/binaryToHexadecimal.git
    ```
 
-# binaryToHexadecimal
