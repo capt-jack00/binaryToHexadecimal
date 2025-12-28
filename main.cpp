@@ -3,6 +3,8 @@
 #include <sstream>
 
 using namespace std;
+//TODO: Add better error handling.
+//User can enter anything, this means that when user enters something other than bunch of 1 and 0 program crashes
 
 // Function to convert binary to hexadecimal
 string binaryToHexadecimal(string binary)
